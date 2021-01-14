@@ -1,4 +1,0 @@
-using system;
-namespace FormMain{
-
-}
