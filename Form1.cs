@@ -18,7 +18,13 @@ namespace Form1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            Random random = new Random();
+            int intname = random.Next();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.exit();
         }
     }
 }
